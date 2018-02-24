@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="LFC Ownership" max_length="40" name="x_178904_lfc_shirt_lfc_ownership" type="collection">
+        <element display="true" label="Owner of the shirt" max_length="32" name="owner_of_the_shirt" reference="sys_user" type="reference"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="owner_of_the_shirt"/>
+        </index>
+    </element>
+</database>

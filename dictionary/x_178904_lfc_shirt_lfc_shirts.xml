@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="LFC Shirts" max_length="40" name="x_178904_lfc_shirt_lfc_shirts" type="collection">
+        <element label="Shirt image" max_length="40" name="shirt_image" type="user_image"/>
+        <element attributes="edge_encryption_enabled=true" label="From year" max_length="4" name="u_shirt_from_year" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Shirt ID" max_length="40" name="u_shirt_id" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="newbalance" label="Shirt producer" max_length="40" name="u_shirt_producer" type="string">
+            <choice>
+                <element label="New Balance" sequence="0" value="newbalance"/>
+                <element label="Adidas" sequence="1" value="adidas"/>
+                <element label="Rebook" sequence="2" value="rebook"/>
+                <element label="Warrior" sequence="3" value="warrior"/>
+                <element label="Umbro" sequence="4" value="umbro"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="To year" max_length="4" name="u_shirt_to_year" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="HO" label="Shirt variant" max_length="40" name="u_shirt_variant" type="string">
+            <choice>
+                <element label="Home" sequence="0" value="HO"/>
+                <element label="Away" sequence="1" value="AW"/>
+                <element label="3rd" sequence="2" value="3D"/>
+                <element label="ChLeague" sequence="3" value="CL"/>
+                <element label="Other" sequence="4" value="OT"/>
+            </choice>
+        </element>
+    </element>
+</database>

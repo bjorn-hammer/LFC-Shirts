@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="LFC Webstores" max_length="40" name="x_178904_lfc_shirt_lfc_webstores" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Webstore Name" mandatory="true" max_length="40" name="u_lfcshirts_webstore_name" type="string"/>
+        <element label="Webstore Shirt" mandatory="true" max_length="32" name="u_lfcshirts_webstore_shirt" reference="x_178904_lfc_shirt_lfc_shirts" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Webstore Shirt URL" mandatory="true" max_length="120" name="u_lfcshirts_webstore_url" type="string"/>
+        <index name="index">
+            <element name="u_lfcshirts_webstore_shirt"/>
+        </index>
+    </element>
+</database>

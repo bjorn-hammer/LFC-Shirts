@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="" label="LFC Shirts" language="en" table="x_178904_lfc_shirt_lfc_shirts">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>LFC Shirts</label>
+            <language>en</language>
+            <name>x_178904_lfc_shirt_lfc_shirts</name>
+            <plural>LFC Shirts</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-23 22:46:09</sys_created_on>
+            <sys_id>9b2efd544f601300bbb32ed18110c75c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>LFC Shirts</sys_name>
+            <sys_package display_value="LFC Shirts" source="x_178904_lfc_shirt">379ab9d04f601300bbb32ed18110c7cc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="LFC Shirts">379ab9d04f601300bbb32ed18110c7cc</sys_scope>
+            <sys_update_name>sys_documentation_x_178904_lfc_shirt_lfc_shirts__en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-23 22:46:09</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
