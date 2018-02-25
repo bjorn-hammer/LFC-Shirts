@@ -32,7 +32,7 @@
         <element_reference>false</element_reference>
         <foreign_database/>
         <internal_type display_value="Reference">reference</internal_type>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <max_length>32</max_length>
         <name>x_178904_lfc_shirt_lfc_ownership</name>
         <next_element/>
@@ -53,14 +53,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-02-24 22:54:42</sys_created_on>
         <sys_id>edd5cb604fa81300bbb32ed18110c750</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Owner of the shirt</sys_name>
         <sys_package display_value="LFC Shirts" source="x_178904_lfc_shirt">379ab9d04f601300bbb32ed18110c7cc</sys_package>
         <sys_policy/>
         <sys_scope display_value="LFC Shirts">379ab9d04f601300bbb32ed18110c7cc</sys_scope>
         <sys_update_name>sys_dictionary_x_178904_lfc_shirt_lfc_ownership_owner_of_the_shirt</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-02-24 22:54:42</sys_updated_on>
+        <sys_updated_on>2018-02-25 14:26:40</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

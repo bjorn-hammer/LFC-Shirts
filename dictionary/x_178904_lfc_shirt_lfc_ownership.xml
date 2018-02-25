@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="LFC Ownership" max_length="40" name="x_178904_lfc_shirt_lfc_ownership" type="collection">
-        <element display="true" label="Owner of the shirt" max_length="32" name="owner_of_the_shirt" reference="sys_user" type="reference"/>
-        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
-        <element attributes="omit_sys_original=true" label="Price" max_length="20" name="u_lfcshirts_ownership_price" type="currency"/>
+        <element display="true" label="Owner of the shirt" mandatory="true" max_length="32" name="owner_of_the_shirt" reference="sys_user" type="reference"/>
+        <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
+        <element attributes="omit_sys_original=true" label="Price" mandatory="true" max_length="20" name="u_lfcshirts_ownership_price" type="currency"/>
         <element attributes="edge_encryption_enabled=true" label="Shirt" mandatory="true" max_length="40" name="u_ownership_lfcshits_shirtowned" reference="x_178904_lfc_shirt_lfc_shirts" type="reference"/>
         <index name="index">
             <element name="owner_of_the_shirt"/>
