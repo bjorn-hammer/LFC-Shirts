@@ -3,15 +3,15 @@
     <sys_ui_section caption="" section_id="84b283204fa81300bbb32ed18110c700" sys_domain="global" table="x_178904_lfc_shirt_lfc_ownership" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>owner_of_the_shirt</element>
-            <position>1</position>
+            <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-02-24 22:54:42</sys_created_on>
-            <sys_id>1eb9c3a04fa81300bbb32ed18110c761</sys_id>
+            <sys_created_on>2018-02-25 01:32:34</sys_created_on>
+            <sys_id>beddefa04fe81300bbb32ed18110c705</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_178904_lfc_shirt_lfc_ownership" sys_domain="global" view="Default view">84b283204fa81300bbb32ed18110c700</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-02-24 22:54:42</sys_updated_on>
+            <sys_updated_on>2018-02-25 01:32:34</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
