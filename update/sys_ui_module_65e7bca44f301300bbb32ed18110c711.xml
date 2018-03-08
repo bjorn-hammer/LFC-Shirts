@@ -4,25 +4,25 @@
         <active>true</active>
         <application display_value="LFC Shirts">832efd544f601300bbb32ed18110c716</application>
         <filter/>
-        <name>Registered LFC Webstores</name>
-        <order>400</order>
+        <name>Add New LFC Webstore</name>
+        <order>300</order>
         <path/>
         <path_relative_to_root>false</path_relative_to_root>
-        <roles>x_178904_lfc_shirt.lfc_shirts_user</roles>
+        <roles/>
         <sys_class_name>sys_ui_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-02-23 22:50:04</sys_created_on>
+        <sys_created_on>2018-03-08 22:33:51</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>381f39944f601300bbb32ed18110c7c9</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>Registered LFC Webstores</sys_name>
+        <sys_id>65e7bca44f301300bbb32ed18110c711</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Add New LFC Webstore</sys_name>
         <sys_package display_value="LFC Shirts" source="x_178904_lfc_shirt">379ab9d04f601300bbb32ed18110c7cc</sys_package>
         <sys_policy/>
         <sys_scope display_value="LFC Shirts">379ab9d04f601300bbb32ed18110c7cc</sys_scope>
-        <sys_update_name>sys_ui_module_381f39944f601300bbb32ed18110c7c9</sys_update_name>
+        <sys_update_name>sys_ui_module_65e7bca44f301300bbb32ed18110c711</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-03-08 22:36:45</sys_updated_on>
+        <sys_updated_on>2018-03-08 22:36:55</sys_updated_on>
         <table>x_178904_lfc_shirt_lfc_webstores</table>
         <uncancelable>false</uncancelable>
         <view_name/>

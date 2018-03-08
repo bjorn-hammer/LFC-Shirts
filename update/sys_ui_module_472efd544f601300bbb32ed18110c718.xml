@@ -4,8 +4,8 @@
         <active>true</active>
         <application display_value="LFC Shirts">832efd544f601300bbb32ed18110c716</application>
         <filter/>
-        <name>LFC Shirts</name>
-        <order/>
+        <name>Registered LFC Shirts</name>
+        <order>200</order>
         <path/>
         <path_relative_to_root>false</path_relative_to_root>
         <roles>x_178904_lfc_shirt.lfc_shirts_user</roles>
@@ -15,14 +15,14 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>472efd544f601300bbb32ed18110c718</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>LFC Shirts</sys_name>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Registered LFC Shirts</sys_name>
         <sys_package display_value="LFC Shirts" source="x_178904_lfc_shirt">379ab9d04f601300bbb32ed18110c7cc</sys_package>
         <sys_policy/>
         <sys_scope display_value="LFC Shirts">379ab9d04f601300bbb32ed18110c7cc</sys_scope>
         <sys_update_name>sys_ui_module_472efd544f601300bbb32ed18110c718</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-02-23 22:46:08</sys_updated_on>
+        <sys_updated_on>2018-03-08 22:37:19</sys_updated_on>
         <table>x_178904_lfc_shirt_lfc_shirts</table>
         <uncancelable>false</uncancelable>
         <view_name/>
