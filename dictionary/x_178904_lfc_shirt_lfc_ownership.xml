@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="LFC Ownership" max_length="40" name="x_178904_lfc_shirt_lfc_ownership" type="collection">
-        <element label="Shirt" max_length="32" name="u_lfcshirts_shirtid" reference="x_178904_lfc_shirt_lfc_shirts" type="reference"/>
+        <element label="Shirt" max_length="32" name="u_lfcshirts_shirtid" reference="x_178904_lfc_shirt_lfc_shirts" reference_qual="u_shirt_idSTARTSWITH^EQ" reference_qual_condition="u_shirt_idSTARTSWITH^EQ" type="reference"/>
+        <element label="Shirt Image" max_length="32" name="u_lfcshirts_shirt_image" read_only="true" reference="x_178904_lfc_shirt_lfc_shirts" type="reference"/>
         <element label="Shirt Owner" max_length="32" name="u_lfcshirts_shirt_owner" reference="sys_user" type="reference"/>
         <index name="index">
             <element name="u_lfcshirts_shirtid"/>
         </index>
         <index name="index2">
             <element name="u_lfcshirts_shirt_owner"/>
+        </index>
+        <index name="index3">
+            <element name="u_lfcshirts_shirt_image"/>
         </index>
     </element>
 </database>

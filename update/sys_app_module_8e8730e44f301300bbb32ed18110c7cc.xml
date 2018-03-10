@@ -28,17 +28,17 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>8e8730e44f301300bbb32ed18110c7cc</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>Add New LFC Webstore</sys_name>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>New LFC Webstore</sys_name>
         <sys_overrides/>
         <sys_package display_value="LFC Shirts" source="x_178904_lfc_shirt">379ab9d04f601300bbb32ed18110c7cc</sys_package>
         <sys_policy/>
         <sys_scope display_value="LFC Shirts">379ab9d04f601300bbb32ed18110c7cc</sys_scope>
         <sys_update_name>sys_app_module_8e8730e44f301300bbb32ed18110c7cc</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-03-08 22:45:16</sys_updated_on>
+        <sys_updated_on>2018-03-09 20:55:14</sys_updated_on>
         <timeline_page/>
-        <title>Add New LFC Webstore</title>
+        <title>New LFC Webstore</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>
